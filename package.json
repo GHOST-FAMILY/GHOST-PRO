@@ -1,15 +1,16 @@
 {
-"name": "Quenn_Anju-web-pair",
+"name": "web-pair",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name Quenn_Anju",
-      "stop": "pm2 stop Quenn_Anju",
-     "restart": "pm2 restart Quenn_Anju"
+      "start": "pm2 start index.js --deep-monitoring --attach --name vajira-md",
+      "stop": "pm2 stop vajira-md",
+     "restart": "pm2 restart vajira-md"
     },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys": "git+https://github.com/VajiraTech/VAJIRA-BAILEYS.git",              
+    "@adiwajshing/keyed-db": "^0.2.4",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
@@ -17,7 +18,8 @@
     "body-parser": "^1.20.1",
     "express": "^4.18.1",
     "path": "^0.12.7",
-    "megajs": "^1.1.0",
-    "pm2": "^5.2.0"
+    "megajs": "1.1.7",
+    "pm2": "^5.4.0",
+    "async-mutex":"0.4.1"
    }
 }
