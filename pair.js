@@ -82,8 +82,8 @@ var randomItem = selectRandomItem(items);
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN X=",
-thumbnailUrl: "https://pomf2.lain.la/f/bgsozwf2.jpg",
+title: "GHOST-MD=",
+thumbnailUrl: "https://i.ibb.co/5L8LygK/7ea64ee9890f96ea.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -98,8 +98,8 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN X=",
-thumbnailUrl: "https://pomf2.lain.la/f/bgsozwf2.jpg",
+title: "GHOST-MD=",
+thumbnailUrl: "https://i.ibb.co/5L8LygK/7ea64ee9890f96ea.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O",
 mediaType: 2,
 renderLargerThumbnail: true,
